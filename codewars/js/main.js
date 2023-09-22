@@ -74,3 +74,46 @@ function fizzBuzz(num){
     fizzBuzz(5);
     fizzBuzz(3);
     fizzBuzz(15);
+
+
+
+ if (age < 16){
+    console.log('Can\'t drive')
+ }else if (age < 18){
+    console.log('Can\'t hate')
+ }else if (age < 21){
+    console.log('Can\'t drink')
+ } else if (age < 25){
+    console.log('Can\'t rent affordably')
+ }else if (age < 30){
+    console.log('Can\'t rent fancy')
+ }else{
+    console.log('Nothing left')
+ }
+
+ function take3(n1, n2, n3){
+    let addFirst2 = n1 + n2;
+    return addFirst2 % n3
+ }
+
+
+ function takes4(n1, n2, n3, n4){
+    if (n1 * n2 > 100){
+        console.log(product + n3 + n4)
+    }else if (n1 * n2 < 100){
+        console.log(product - (n3 - n4)
+    }else{
+      alert((n1 * n2 * n3) % n4)
+    }
+ }
+
+
+ // function for converting C to F
+
+document.querySelector('h1').addEventListener('click', convertCToF)
+
+ function convertCToF(){
+    let cTemp = Number(document.querySelector('input').value)
+    let f = cTemp * 9/5 + 32
+    document.querySelector('h2').innerText = f
+ }
